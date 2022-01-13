@@ -1,3 +1,9 @@
+
+<div (click)="showMenu = !showMenu">
+    <button class="btn btn-primary">Menu</button>
+</div>
+<app-menu (close)="onClose()" (reset)="onReset()" *ngIf="showMenu"></app-menu>
+
 <div class="container center">
     <!-- // prima colonna -->
     <div class="row gx-1 justify-content-center">
