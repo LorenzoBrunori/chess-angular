@@ -1,0 +1,18 @@
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: #d3b18d;
+}
+
+.brown{
+    width: 100px;
+    height: 100px;
+    background-color: #5a3026;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
